@@ -8,7 +8,7 @@ router.get('/', function (req, res){
 });
 
 // date as unix time
-router.get(/\/(\d{1,10})/, function(req, res) {
+router.get(/\/(\d{1,10}$)/, function(req, res) {
    res.send({
        unix: parseInt(req.params[0]),
        natural: Date.create(parseInt(req.params[0]*1000)).short()
