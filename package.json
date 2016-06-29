@@ -23,7 +23,9 @@
   "author": "Antonio Carretero",
   "license": "FCC",
   "dependencies": {
-    "express": "^4.12.4"
+    "ejs": "^2.4.2",
+    "express": "^4.12.4",
+    "sugar": "^1.4.1"
   },
   "devDependencies": {}
 }
