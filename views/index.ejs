@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timestamp Microservice</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <h1>API Basejump: Timestamp microservice</h1>
+        <div>
+            <p>User stories:</p>
+            <ol>
+                <li>1) I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+                <li>2) If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+                <li>3) If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+            </ol>
+        </div>
+        <h2>Example usage:</h2>
+        <p class="enlace">https://api-projects-aclbros.c9users.io/December%2015,%202015</p>
+        <p class="enlace">https://api-projects-aclbros.c9users.io/1450137600</p>
+        <h2>Example output:</h2>
+        <p class="enlace">{ "unix": 1450137600, "natural": "December 15, 2015" }</p>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    width: 60%;
+    margin: auto auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3em;
+}
+
+div {
+    border-left: solid lightgrey 5px;
+}
+
+p {
+    font-size: large;
+    margin-left: 10px;
+}
+
+ol {
+    list-style: none;
+    margin-left: 35px;
+    font-size: large;
+}
+
+li {
+    padding: 5px;
+}
+
+.enlace {
+    color: purple;
+    
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    font-size: large;
+}
